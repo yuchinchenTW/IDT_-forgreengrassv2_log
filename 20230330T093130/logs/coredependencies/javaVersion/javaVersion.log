@@ -1,0 +1,8 @@
+time="2023-03-30T09:31:41+08:00" level=info msg="Setting up device for testing"
+time="2023-03-30T09:31:41+08:00" level=info msg="Device architecture: aarch64"
+time="2023-03-30T09:31:42+08:00" level=info msg="Executing java version validation test"
+time="2023-03-30T09:31:43+08:00" level=info msg="Sucessfully validated the java version on Device"
+time="2023-03-30T09:31:43+08:00" level=info msg="Cleaning up test resources..."
+time="2023-03-30T09:31:43+08:00" level=info msg="Cleaning up dut resources..."
+time="2023-03-30T09:31:43+08:00" level=info msg="Cleaning up AWS resources... This may take a while..."
+time="2023-03-30T09:31:43+08:00" level=info msg="Finished running test case"

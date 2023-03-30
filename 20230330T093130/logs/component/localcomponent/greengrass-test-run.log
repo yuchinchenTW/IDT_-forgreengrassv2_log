@@ -1,0 +1,34 @@
+2023-Mar-30 09:31:54,560 [] [] [WARN] com.aws.greengrass.testing.modules.GreengrassContextModule - Testing with PreInstalled greengrass, the path to greengrass nucleus zip will be ignored
+2023-Mar-30 09:31:58,910 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+2023-Mar-30 09:32:00,230 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+2023-Mar-30 09:32:01,541 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+2023-Mar-30 09:32:02,866 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+2023-Mar-30 09:32:04,781 [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+2023-Mar-30 09:32:04,781 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'A component is deployed locally using CLI'
+2023-Mar-30 09:32:08,739 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+2023-Mar-30 09:32:11,385 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'my device is running Greengrass' with status PASSED
+2023-Mar-30 09:32:14,211 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+2023-Mar-30 09:32:14,818 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Mar-30 09:32:14,819 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: c515b6fa-7a8d-4bb7-9d0d-efc6811ba3c0
+2023-Mar-30 09:32:14,820 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+2023-Mar-30 09:33:38,701 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+2023-Mar-30 09:33:40,028 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I verify greengrass-cli is available in greengrass root' with status PASSED
+2023-Mar-30 09:33:52,140 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - The local deployment response is  90db6bbe-d050-4259-a51d-d5a91037bf81
+
+2023-Mar-30 09:33:52,141 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I create a local deployment with components' with status PASSED
+2023-Mar-30 09:34:17,988 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'the local Greengrass deployment is SUCCEEDED on the device after 120 seconds' with status PASSED
+2023-Mar-30 09:34:20,629 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] greengrass/features/localdeployment.feature - Finished step: 'the aws.greengrass.LocalHelloWorld log on the device contains the line "Hello World!!" within 20 seconds' with status PASSED
+2023-Mar-30 09:34:21,174 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Mar-30 09:34:21,630 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Mar-30 09:35:17,850 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Mar-30 09:35:18,344 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Mar-30 09:40:18,679 [localdeployment] [idt-0686a0ea5aa5583e97ba] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+2023-Mar-30 09:40:18,688 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+2023-Mar-30 09:40:18,690 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+2023-Mar-30 09:40:29,939 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+2023-Mar-30 09:40:30,555 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Mar-30 09:40:30,909 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Mar-30 09:40:31,138 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Mar-30 09:40:31,145 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+2023-Mar-30 09:40:31,148 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'A component is deployed locally using CLI'
+2023-Mar-30 09:40:31,152 [localdeployment] [idt-0686a0ea5aa5583e97ba] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'A component is deployed locally using CLI'

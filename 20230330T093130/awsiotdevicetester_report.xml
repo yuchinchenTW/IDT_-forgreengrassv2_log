@@ -1,0 +1,67 @@
+<apnreport>
+	<awsiotdevicetesterversion>4.7.0</awsiotdevicetesterversion>
+	<testsuiteversion>2.5.0</testsuiteversion>
+	<signature>6d82fb833036762af5e4a1f2849326298d30038e7c474ff850a494fb0611df4c33451654b32ef35d3a921fda2b60172b2fa6cdb6746e5f5c3b018ad91aec4a1a</signature>
+	<keyname>f06febc6-2083-4f04-8c07-e5335c02197e</keyname>
+	<session>
+		<testsession>98b8bcae-ce9a-11ed-8691-080027641c32</testsession>
+		<starttime>2023-03-30T09:31:34.599956424+08:00</starttime>
+		<endtime>2023-03-30T10:31:33.597741135+08:00</endtime>
+	</session>
+	<awsproduct>
+		<name>AWS Greengrass</name>
+		<version>2.9.4</version>
+		<features>
+			<feature name="aws-iot-greengrass-v2-core" value="not-supported" type="required"></feature>
+			<feature name="aws-iot-greengrass-v2-ml-component" value="not-supported" type="optional"></feature>
+			<feature name="aws-iot-greengrass-v2-docker-application-manager" value="not-supported" type="optional"></feature>
+			<feature name="aws-iot-greengrass-v2-stream-management-component" value="not-supported" type="optional"></feature>
+			<feature name="aws-iot-greengrass-v2-hsi" value="not-supported" type="optional"></feature>
+		</features>
+	</awsproduct>
+	<device>
+		<sku>IM30</sku>
+		<name>IM30</name>
+		<features>
+			<feature name="arch" value="aarch64"></feature>
+			<feature name="ml" value="no"></feature>
+			<feature name="docker" value="no"></feature>
+			<feature name="streamManagement" value="no"></feature>
+			<feature name="hsi" value="no"></feature>
+			<feature name="platform.operatingSystem" value="Linux"></feature>
+		</features>
+		<executionMethod>ssh</executionMethod>
+	</device>
+	<devenvironment>
+		<os name="linux"></os>
+	</devenvironment>
+	<qualificationsuite>
+		<checksumkeyname>GGV2Q_linux_2.5.0</checksumkeyname>
+		<checksum>3391d7ab3a7e4747bc7bc82f245614da76f02b0e2e385228468a45c3e7081f3e63f996d92f6cc91976e10f68b4dcfb45</checksum>
+	</qualificationsuite>
+	<report>
+		<testsuites name="GGV2Q results" time="3598" tests="7" failures="1" skipped="0" errors="0" disabled="0">
+			<testsuite name="pretestvalidation" package="" tests="1" failures="0" time="6" disabled="0" errors="0" skipped="0">
+				<testcase classname="GGV2Q pretestvalidation" name="pretestvalidation"></testcase>
+			</testsuite>
+			<testsuite name="coredependencies" package="" tests="1" failures="0" time="3" disabled="0" errors="0" skipped="0">
+				<testcase classname="GGV2Q coredependencies" name="javaversion"></testcase>
+			</testsuite>
+			<testsuite name="version" package="" tests="1" failures="0" time="3" disabled="0" errors="0" skipped="0">
+				<testcase classname="GGV2Q version" name="versionCompatibility"></testcase>
+			</testsuite>
+			<testsuite name="component" package="" tests="2" failures="1" time="3054" disabled="0" errors="0" skipped="0">
+				<testcase classname="GGV2Q component" name="localcomponent" time="1422924480"></testcase>
+				<testcase classname="GGV2Q component" name="cloudcomponent" time="274022592">
+					<failure type="failed">Failed at &#39;the Greengrass deployment is COMPLETED on the device after 180 seconds&#39;</failure>
+				</testcase>
+			</testsuite>
+			<testsuite name="lambdadeployment" package="" tests="1" failures="0" time="699" disabled="0" errors="0" skipped="0">
+				<testcase classname="GGV2Q lambdadeployment" name="lambdadeploymenttest"></testcase>
+			</testsuite>
+			<testsuite name="mqtt" package="" tests="1" failures="0" time="528" disabled="0" errors="0" skipped="0">
+				<testcase classname="GGV2Q mqtt" name="mqttpubsub" time="800924480"></testcase>
+			</testsuite>
+		</testsuites>
+	</report>
+</apnreport>
