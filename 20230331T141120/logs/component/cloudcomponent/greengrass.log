@@ -1,0 +1,30 @@
+2023-03-31T08:03:54.911Z [WARN] (Thread-1) com.aws.greengrass.lifecyclemanager.Kernel: Shutting down Nucleus due to external signal. {}
+2023-03-31T08:03:54.918Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.KernelLifecycle: system-shutdown. {main=services.main:FINISHED}
+2023-03-31T08:03:54.922Z [INFO] (pool-2-thread-23) com.aws.greengrass.lifecyclemanager.GenericExternalService: service-close. Service is now closing. {serviceName=main, currentState=FINISHED}
+2023-03-31T08:03:54.924Z [INFO] (pool-2-thread-9) com.aws.greengrass.deployment.DeploymentService: service-close. Service is now closing. {serviceName=DeploymentService, currentState=RUNNING}
+2023-03-31T08:03:54.924Z [INFO] (pool-2-thread-24) com.aws.greengrass.telemetry.TelemetryAgent: service-close. Service is now closing. {serviceName=TelemetryAgent, currentState=RUNNING}
+2023-03-31T08:03:54.927Z [INFO] (TelemetryAgent-lifecycle) com.aws.greengrass.telemetry.TelemetryAgent: service-set-state. {serviceName=TelemetryAgent, currentState=RUNNING, newState=STOPPING}
+2023-03-31T08:03:54.928Z [INFO] (pool-2-thread-25) com.aws.greengrass.lifecyclemanager.UpdateSystemPolicyService: service-close. Service is now closing. {serviceName=UpdateSystemPolicyService, currentState=RUNNING}
+2023-03-31T08:03:54.929Z [INFO] (DeploymentService-lifecycle) com.aws.greengrass.deployment.DeploymentService: service-set-state. {serviceName=DeploymentService, currentState=RUNNING, newState=STOPPING}
+2023-03-31T08:03:54.931Z [INFO] (UpdateSystemPolicyService-lifecycle) com.aws.greengrass.lifecyclemanager.UpdateSystemPolicyService: service-set-state. {serviceName=UpdateSystemPolicyService, currentState=RUNNING, newState=STOPPING}
+2023-03-31T08:03:54.933Z [INFO] (pool-2-thread-23) com.aws.greengrass.status.FleetStatusService: service-close. Service is now closing. {serviceName=FleetStatusService, currentState=RUNNING}
+2023-03-31T08:03:54.933Z [INFO] (pool-2-thread-26) com.aws.greengrass.lifecyclemanager.GenericExternalService: service-close. Service is now closing. {serviceName=aws.greengrass.Nucleus, currentState=FINISHED}
+2023-03-31T08:03:54.935Z [INFO] (pool-2-thread-27) com.aws.greengrass.telemetry.TelemetryAgent: Cancelling all telemetry scheduled tasks.. {serviceName=TelemetryAgent, currentState=STOPPING}
+2023-03-31T08:03:54.936Z [INFO] (TelemetryAgent-lifecycle) com.aws.greengrass.telemetry.TelemetryAgent: service-set-state. {serviceName=TelemetryAgent, currentState=STOPPING, newState=FINISHED}
+2023-03-31T08:03:54.936Z [INFO] (FleetStatusService-lifecycle) com.aws.greengrass.status.FleetStatusService: service-set-state. {serviceName=FleetStatusService, currentState=RUNNING, newState=STOPPING}
+2023-03-31T08:03:54.938Z [INFO] (FleetStatusService-lifecycle) com.aws.greengrass.status.FleetStatusService: service-set-state. {serviceName=FleetStatusService, currentState=STOPPING, newState=FINISHED}
+2023-03-31T08:03:54.941Z [INFO] (DeploymentService-lifecycle) com.aws.greengrass.deployment.DeploymentService: Stopping backingTask start. {serviceName=DeploymentService, currentState=STOPPING}
+2023-03-31T08:03:54.942Z [INFO] (DeploymentService-lifecycle) com.aws.greengrass.deployment.DeploymentService: service-set-state. {serviceName=DeploymentService, currentState=STOPPING, newState=FINISHED}
+2023-03-31T08:03:54.942Z [WARN] (pool-2-thread-17) com.aws.greengrass.deployment.DeploymentService: service-run-interrupted. Service interrupted while running startup. {serviceName=DeploymentService, currentState=STOPPING}
+2023-03-31T08:03:54.942Z [INFO] (UpdateSystemPolicyService-lifecycle) com.aws.greengrass.lifecyclemanager.UpdateSystemPolicyService: Stopping backingTask start. {serviceName=UpdateSystemPolicyService, currentState=STOPPING}
+2023-03-31T08:03:54.943Z [WARN] (pool-2-thread-15) com.aws.greengrass.lifecyclemanager.UpdateSystemPolicyService: service-run-interrupted. Service interrupted while running startup. {serviceName=UpdateSystemPolicyService, currentState=STOPPING}
+2023-03-31T08:03:54.943Z [INFO] (UpdateSystemPolicyService-lifecycle) com.aws.greengrass.lifecyclemanager.UpdateSystemPolicyService: service-set-state. {serviceName=UpdateSystemPolicyService, currentState=STOPPING, newState=FINISHED}
+2023-03-31T08:03:54.945Z [INFO] (pool-2-thread-30) com.aws.greengrass.lifecyclemanager.GenericExternalService: service-close. Service is now closing. {serviceName=aws.greengrass.LocalHelloWorld, currentState=FINISHED}
+2023-03-31T08:03:54.946Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.KernelLifecycle: Waiting for services to shutdown. {}
+2023-03-31T08:03:54.979Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.Kernel: effective-config-dump-complete. {file=/test/greengrass/v2/config/effectiveConfig.yaml}
+2023-03-31T08:03:54.982Z [INFO] (Serialized listener processor) com.aws.greengrass.lifecyclemanager.KernelLifecycle: executor-service-shutdown-initiated. {}
+2023-03-31T08:03:54.983Z [WARN] (pool-2-thread-10) com.aws.greengrass.mqttclient.MqttClient: Shutting down spooler task. {}
+2023-03-31T08:03:54.984Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.KernelLifecycle: Waiting for executors to shutdown. {}
+2023-03-31T08:03:54.986Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.KernelLifecycle: executor-service-shutdown-complete. {executor-terminated=true, scheduled-executor-terminated=true}
+2023-03-31T08:03:54.987Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.KernelLifecycle: context-shutdown-initiated. {}
+2023-03-31T08:03:54.996Z [INFO] (Thread-1) com.aws.greengrass.lifecyclemanager.KernelLifecycle: context-shutdown-complete. {}

@@ -1,0 +1,23 @@
+[INFO] [2023-03-31 14:11:24]: Connecting to devices...
+[INFO] [2023-03-31 14:11:30]: generated test level report for test result for test name pretestvalidation successfully
+[INFO] [2023-03-31 14:11:30]: Disconnecting from devices
+[INFO] [2023-03-31 14:11:30]: Connecting to devices...
+[INFO] [2023-03-31 14:11:32]: generated test level report for test result for test name javaversion successfully
+[INFO] [2023-03-31 14:11:32]: Disconnecting from devices
+[INFO] [2023-03-31 14:11:32]: Connecting to devices...
+[INFO] [2023-03-31 14:11:35]: generated test level report for test result for test name versionCompatibility successfully
+[INFO] [2023-03-31 14:11:35]: Disconnecting from devices
+[INFO] [2023-03-31 14:11:36]: Connecting to devices...
+[INFO] [2023-03-31 14:35:42]: generated test level report for test result for test name mqttpubsub successfully
+[INFO] [2023-03-31 14:35:42]: Disconnecting from devices
+[INFO] [2023-03-31 14:35:42]: Connecting to devices...
+[INFO] [2023-03-31 15:15:58]: generated test level report for test result for test name lambdadeploymenttest successfully
+[INFO] [2023-03-31 15:16:01]: Disconnecting from devices
+[INFO] [2023-03-31 15:16:01]: Connecting to devices...
+[INFO] [2023-03-31 15:40:51]: generated test level report for test result for test name localcomponent successfully
+[INFO] [2023-03-31 15:40:51]: Disconnecting from devices
+[INFO] [2023-03-31 15:40:51]: Connecting to devices...
+[INFO] [2023-03-31 17:45:43]: generated test level report for test result for test name cloudcomponent successfully
+[INFO] [2023-03-31 17:45:43]: Disconnecting from devices
+[ERROR] [2023-03-31 17:45:43]: failed to disconnect from devices: disconnecting connection with id component_cloudcomponent failed: failed to close remote executor: failed to close SSH client connection: close tcp 10.0.2.15:49636->192.168.120.29:22: use of closed network connection
+[ERROR] [2023-03-31 17:45:46]: accept tcp 127.0.0.1:46517: use of closed network connection
