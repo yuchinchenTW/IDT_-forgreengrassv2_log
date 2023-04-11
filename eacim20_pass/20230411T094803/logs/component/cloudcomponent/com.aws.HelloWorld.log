@@ -1,0 +1,6 @@
+2023-04-11T02:15:27.564Z [INFO] (pool-2-thread-18) com.aws.HelloWorld: shell-runner-start. {scriptName=services.com.aws.HelloWorld.lifecycle.Run, serviceName=com.aws.HelloWorld, currentState=STARTING, command=["java -DcomponentName=\u0022HelloWorld\u0022 -jar /test/greengrass/v2/packages/artifacts-..."]}
+2023-04-11T02:15:27.768Z [INFO] (Copier) com.aws.HelloWorld: stdout. Hello World!!. {scriptName=services.com.aws.HelloWorld.lifecycle.Run, serviceName=com.aws.HelloWorld, currentState=RUNNING}
+2023-04-11T02:15:27.785Z [INFO] (Copier) com.aws.HelloWorld: Run script exited. {exitCode=0, serviceName=com.aws.HelloWorld, currentState=RUNNING}
+2023-04-11T02:16:27.449Z [INFO] (pool-2-thread-19) com.aws.HelloWorld: shell-runner-start. {scriptName=services.com.aws.HelloWorld.lifecycle.Run, serviceName=com.aws.HelloWorld, currentState=STARTING, command=["java -DcomponentName=\u0022HelloWorldUpdated\u0022 -jar /test/greengrass/v2/packages/art..."]}
+2023-04-11T02:16:27.666Z [INFO] (Copier) com.aws.HelloWorld: stdout. Hello World Updated!!. {scriptName=services.com.aws.HelloWorld.lifecycle.Run, serviceName=com.aws.HelloWorld, currentState=RUNNING}
+2023-04-11T02:16:27.679Z [INFO] (Copier) com.aws.HelloWorld: Run script exited. {exitCode=0, serviceName=com.aws.HelloWorld, currentState=RUNNING}

@@ -1,0 +1,42 @@
+2023-Apr-11 09:57:13,550 [] [] [WARN] com.aws.greengrass.testing.modules.GreengrassContextModule - Testing with PreInstalled greengrass, the path to greengrass nucleus zip will be ignored
+2023-Apr-11 09:57:21,214 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+2023-Apr-11 09:57:22,520 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+2023-Apr-11 09:57:23,835 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+2023-Apr-11 09:57:25,154 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+2023-Apr-11 09:57:27,036 [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+2023-Apr-11 09:57:27,036 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'Component publishes MQTT message to Iot core and retrieves it as well'
+2023-Apr-11 09:57:31,175 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+2023-Apr-11 09:57:33,824 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'my device is running Greengrass' with status PASSED
+2023-Apr-11 09:57:38,113 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Bucket in S3Lifecycle
+2023-Apr-11 09:58:29,828 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Object in S3Lifecycle
+2023-Apr-11 09:58:29,829 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Uploaded /tmp/gg-testing-6527560335327194385/95f3c8b5022756a46308/components/aws.greengrass.IotMqttPublisher/aws-greengrass-testing-features-mqtt.zip to s3://idt-95f3c8b5022756a46308-gg-component-store/greengrass/components/artifacts/aws-greengrass-testing-features-mqtt.zip
+2023-Apr-11 09:58:31,552 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 09:58:31,552 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component aws.greengrass.IotMqttSubscriber:1.0.0-95f3c8b5022756a46308 from /greengrass/components/recipes/iot_mqtt_subscriber.yaml
+2023-Apr-11 09:58:32,894 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 09:58:32,897 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component aws.greengrass.IotMqttPublisher:1.0.0-95f3c8b5022756a46308 from /greengrass/components/recipes/iot_mqtt_publisher.yaml
+2023-Apr-11 09:58:32,899 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+2023-Apr-11 09:58:33,423 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 09:58:33,424 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 0d20cc4b-096f-4469-aeee-5f85d038a6d7
+2023-Apr-11 09:58:33,424 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+2023-Apr-11 10:01:46,768 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 300 seconds' with status PASSED
+2023-Apr-11 10:01:49,474 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'the aws.greengrass.IotMqttSubscriber log on the device contains the line "Subscribed to IoT topic idt/Mqtt/Test with QOS=AT_LEAST_ONCE" within 20 seconds' with status PASSED
+2023-Apr-11 10:01:52,150 [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'the aws.greengrass.IotMqttPublisher log on the device contains the line "Published to IoT topic idt/Mqtt/Test with payload test message and qos AT_LEAST_ONCE" within 10 seconds' with status PASSED
+2023-Apr-11 10:01:52,846 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Apr-11 10:01:53,269 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:02:16,829 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Apr-11 10:02:17,320 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:03:17,504 [mqtt] [idt-95f3c8b5022756a46308] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+2023-Apr-11 10:03:17,512 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+2023-Apr-11 10:03:17,512 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+2023-Apr-11 10:03:37,803 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+2023-Apr-11 10:03:38,371 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:03:38,671 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:03:38,886 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:03:39,187 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:03:39,486 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:03:40,186 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Object in S3Lifecycle
+2023-Apr-11 10:03:40,801 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Bucket in S3Lifecycle
+2023-Apr-11 10:03:40,807 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+2023-Apr-11 10:03:40,810 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'Component publishes MQTT message to Iot core and retrieves it as well'
+2023-Apr-11 10:03:40,813 [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'Component publishes MQTT message to Iot core and retrieves it as well'
+2023-Apr-11 10:03:40,950 [] [] [INFO] com.aws.greengrass.testing.modules.AWSResourcesCleanupModule - Cleaned up com.aws.greengrass.testing.resources.AWSResources@13af0008

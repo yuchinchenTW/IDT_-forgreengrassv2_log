@@ -1,0 +1,94 @@
+2023-Apr-11 10:09:11,116 [] [] [WARN] com.aws.greengrass.testing.modules.GreengrassContextModule - Testing with PreInstalled greengrass, the path to greengrass nucleus zip will be ignored
+2023-Apr-11 10:09:18,954 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+2023-Apr-11 10:09:20,270 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+2023-Apr-11 10:09:21,572 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+2023-Apr-11 10:09:22,907 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+2023-Apr-11 10:09:24,864 [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+2023-Apr-11 10:09:24,865 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'As a developer, I can create a component in Cloud and deploy it on my device'
+2023-Apr-11 10:09:28,801 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+2023-Apr-11 10:09:31,441 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is running Greengrass' with status PASSED
+2023-Apr-11 10:09:35,900 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Bucket in S3Lifecycle
+2023-Apr-11 10:10:11,304 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Object in S3Lifecycle
+2023-Apr-11 10:10:11,306 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Uploaded /tmp/gg-testing-4442560250706912449/44c0984ba5ed699f9cc8/components/com.aws.HelloWorld/aws-greengrass-testing-features-cloudcomponent.zip to s3://idt-44c0984ba5ed699f9cc8-gg-component-store/greengrass/components/artifacts/aws-greengrass-testing-features-cloudcomponent.zip
+2023-Apr-11 10:10:12,647 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:10:12,648 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.0-44c0984ba5ed699f9cc8 from /greengrass/components/recipes/hello_world_recipe.yaml
+2023-Apr-11 10:10:12,650 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+2023-Apr-11 10:10:13,097 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:10:13,098 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 898b8132-5c7b-4aa5-aaef-5462e6877c2c
+2023-Apr-11 10:10:13,098 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+2023-Apr-11 10:11:05,344 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+2023-Apr-11 10:11:07,982 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World!!" within 20 seconds' with status PASSED
+2023-Apr-11 10:11:10,277 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:11:10,277 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.1-44c0984ba5ed699f9cc8 from /greengrass/components/recipes/hello_world_updated_recipe.yaml
+2023-Apr-11 10:11:10,278 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+2023-Apr-11 10:11:10,668 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:11:10,668 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: b429d7c6-ce3c-4603-b239-4c3e2029cb7e
+2023-Apr-11 10:11:10,669 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+2023-Apr-11 10:12:05,813 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+2023-Apr-11 10:12:08,465 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World Updated!!" within 20 seconds' with status PASSED
+2023-Apr-11 10:12:08,638 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Apr-11 10:12:09,051 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:12:36,105 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Apr-11 10:12:36,535 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:13:36,615 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+2023-Apr-11 10:13:36,621 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+2023-Apr-11 10:13:36,622 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+2023-Apr-11 10:13:55,923 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+2023-Apr-11 10:13:56,494 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:13:56,791 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:13:57,008 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:13:57,291 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:13:57,515 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:13:57,779 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:13:58,479 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Object in S3Lifecycle
+2023-Apr-11 10:13:59,040 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Bucket in S3Lifecycle
+2023-Apr-11 10:13:59,046 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+2023-Apr-11 10:13:59,049 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'As a developer, I can create a component in Cloud and deploy it on my device'
+2023-Apr-11 10:14:04,678 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+2023-Apr-11 10:14:05,993 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+2023-Apr-11 10:14:07,303 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+2023-Apr-11 10:14:08,614 [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+2023-Apr-11 10:14:10,188 [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+2023-Apr-11 10:14:10,189 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'As a developer, I can create a component in Cloud and deploy it on my device via thing group'
+2023-Apr-11 10:14:10,191 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+2023-Apr-11 10:14:12,818 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is running Greengrass' with status PASSED
+2023-Apr-11 10:14:15,696 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Bucket in S3Lifecycle
+2023-Apr-11 10:14:38,736 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Object in S3Lifecycle
+2023-Apr-11 10:14:38,737 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Uploaded /tmp/gg-testing-4442560250706912449/623853a634c947f6e9f6/components/com.aws.HelloWorld/aws-greengrass-testing-features-cloudcomponent.zip to s3://idt-623853a634c947f6e9f6-gg-component-store/greengrass/components/artifacts/aws-greengrass-testing-features-cloudcomponent.zip
+2023-Apr-11 10:14:39,332 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:14:39,333 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.0-623853a634c947f6e9f6 from /greengrass/components/recipes/hello_world_recipe.yaml
+2023-Apr-11 10:14:39,334 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+2023-Apr-11 10:14:39,965 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:14:39,965 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 48508b5b-091e-4662-b1b8-4770635bf1a3
+2023-Apr-11 10:14:39,965 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration to thing group' with status PASSED
+2023-Apr-11 10:15:34,879 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+2023-Apr-11 10:15:37,530 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World!!" within 20 seconds' with status PASSED
+2023-Apr-11 10:15:39,207 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:15:39,208 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.1-623853a634c947f6e9f6 from /greengrass/components/recipes/hello_world_updated_recipe.yaml
+2023-Apr-11 10:15:39,208 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+2023-Apr-11 10:15:39,895 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:15:39,895 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 6a4002f7-3d42-476c-af2b-8da4d43a6b65
+2023-Apr-11 10:15:39,895 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration to thing group' with status PASSED
+2023-Apr-11 10:16:37,119 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+2023-Apr-11 10:16:39,755 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World Updated!!" within 20 seconds' with status PASSED
+2023-Apr-11 10:16:40,445 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Apr-11 10:16:40,871 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:17:07,442 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+2023-Apr-11 10:17:07,917 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:18:08,132 [cloudComponent] [idt-623853a634c947f6e9f6] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+2023-Apr-11 10:18:08,134 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+2023-Apr-11 10:18:08,135 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+2023-Apr-11 10:18:27,466 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+2023-Apr-11 10:18:28,014 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:18:28,335 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:18:28,556 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:18:28,849 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:18:29,071 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+2023-Apr-11 10:18:29,330 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+2023-Apr-11 10:18:30,025 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Object in S3Lifecycle
+2023-Apr-11 10:18:30,539 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Bucket in S3Lifecycle
+2023-Apr-11 10:18:30,541 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+2023-Apr-11 10:18:30,542 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'As a developer, I can create a component in Cloud and deploy it on my device via thing group'
+2023-Apr-11 10:18:30,543 [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'As a developer, I can create a component in Cloud and deploy it on my device'
+2023-Apr-11 10:18:30,544 [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'As a developer, I can create a component in Cloud and deploy it on my device via thing group'
+2023-Apr-11 10:18:30,970 [] [] [INFO] com.aws.greengrass.testing.modules.AWSResourcesCleanupModule - Cleaned up com.aws.greengrass.testing.resources.greengrass.GreengrassV2Lifecycle$$EnhancerByGuice$$24160748@4cec462e

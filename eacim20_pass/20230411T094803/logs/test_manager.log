@@ -1,0 +1,285 @@
+[INFO] [2023-04-11 09:48:03]: Environment information hostArch=amd64 hostName=user-VirtualBox PID=121415 NumCPU=4 args=[./devicetester_linux_x86-64 run-suite --suite-id GGV2Q_2.5.0 --userdata userdata.json] hostOs=linux
+[INFO] [2023-04-11 09:48:03]: Getting test suite name
+[INFO] [2023-04-11 09:48:03]: Loading device pools from /home/user/test/devicetester_greengrass_v2_linux/configs/device.json
+[INFO] [2023-04-11 09:48:03]: Validating device pool...
+[INFO] [2023-04-11 09:48:03]: Device pool(s) successfully loaded.
+[INFO] [2023-04-11 09:48:03]: Running idt=4.7.0 suite=GGV2Q_2.5.0 pool=EACIM20
+[WARNING] [2023-04-11 09:48:03]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+[INFO] [2023-04-11 09:48:04]: Getting test suite name
+[INFO] [2023-04-11 09:48:04]: Automatic updates are supported for this release of IDT, checking for updates.
+[INFO] [2023-04-11 09:48:05]:  executionId=e5970369-d80a-11ed-b322-080027641c32 suiteId=GGV2Q
+[INFO] [2023-04-11 09:48:05]: Using product version "2.9.5"
+[INFO] [2023-04-11 09:48:05]: IDT test suite auto-update is supported for this test suite, checking for updates.
+[INFO] [2023-04-11 09:48:05]: Using test suite "GGV2Q_2.5.0" for execution
+[WARNING] [2023-04-11 09:48:05]: IDT has detected secret values stored in plaintext in the user configuration.
+[WARNING] [2023-04-11 09:48:05]: The following values are marked as secrets in this test suite: userData.hsm.slotId,userData.hsm.slotLabel,userData.hsm.slotUserPin,userData.hsm.keyLabel
+[WARNING] [2023-04-11 09:48:05]: Of those secrets, these are stored in plaintext: userData.hsm.slotId,userData.hsm.slotLabel,userData.hsm.slotUserPin,userData.hsm.keyLabel
+[WARNING] [2023-04-11 09:48:05]: To properly secure these secrets, please store them as AWS Parameter Store encrypted parameters and configure your IDT configuration to fetch them
+[WARNING] [2023-04-11 09:48:05]: For more information on secure storage of IDT secrets, please refer to the IDT getting started guide
+[WARNING] [2023-04-11 09:48:05]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+time="2023-04-11T09:48:06+08:00" level=info msg="GGV2 Suite Info" hostArch=amd64 hostName=user-VirtualBox hostOs=linux groupId=pretestvalidation testCaseId=pretestvalidation deviceId=test
+time="2023-04-11T09:48:06+08:00" level=info msg="Running test case"
+time="2023-04-11T09:48:06+08:00" level=info msg="Setting up device for testing"
+time="2023-04-11T09:48:06+08:00" level=info msg="Device architecture: aarch64"
+time="2023-04-11T09:48:09+08:00" level=info msg="Device architecture: aarch64"
+time="2023-04-11T09:48:12+08:00" level=info msg="Running preTest validation test"
+time="2023-04-11T09:48:15+08:00" level=info msg="Cleaning up test resources..."
+time="2023-04-11T09:48:15+08:00" level=info msg="Temporary resources on DUT are successfully removed"
+time="2023-04-11T09:48:15+08:00" level=info msg="Cleaning up dut resources..."
+time="2023-04-11T09:48:15+08:00" level=info msg="Cleaning up AWS resources... This may take a while..."
+time="2023-04-11T09:48:15+08:00" level=info msg="Finished running test case"
+[WARNING] [2023-04-11 09:48:15]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+time="2023-04-11T09:48:15+08:00" level=info msg="GGV2 Suite Info" hostArch=amd64 hostName=user-VirtualBox hostOs=linux testCaseId=javaversion deviceId=test groupId=coredependencies
+time="2023-04-11T09:48:15+08:00" level=info msg="Running test case"
+time="2023-04-11T09:48:15+08:00" level=info msg="Setting up device for testing"
+time="2023-04-11T09:48:16+08:00" level=info msg="Device architecture: aarch64"
+time="2023-04-11T09:48:19+08:00" level=info msg="Executing java version validation test"
+time="2023-04-11T09:48:19+08:00" level=info msg="Sucessfully validated the java version on Device"
+time="2023-04-11T09:48:19+08:00" level=info msg="Cleaning up test resources..."
+time="2023-04-11T09:48:19+08:00" level=info msg="Cleaning up dut resources..."
+time="2023-04-11T09:48:19+08:00" level=info msg="Cleaning up AWS resources... This may take a while..."
+time="2023-04-11T09:48:19+08:00" level=info msg="Finished running test case"
+[WARNING] [2023-04-11 09:48:19]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+time="2023-04-11T09:48:19+08:00" level=info msg="GGV2 Suite Info" hostArch=amd64 hostName=user-VirtualBox hostOs=linux groupId=version testCaseId=versionCompatibility deviceId=test
+time="2023-04-11T09:48:19+08:00" level=info msg="Running test case"
+time="2023-04-11T09:48:19+08:00" level=info msg="Setting up device for testing"
+time="2023-04-11T09:48:20+08:00" level=info msg="Device architecture: aarch64"
+time="2023-04-11T09:48:23+08:00" level=info msg="Executing version compatibility test setup"
+time="2023-04-11T09:48:23+08:00" level=info msg="Executing version compatibility test"
+time="2023-04-11T09:48:23+08:00" level=info msg="Test is executing with Greengrass version 2.9.5"
+time="2023-04-11T09:48:24+08:00" level=info msg="Cleaning up test resources..."
+time="2023-04-11T09:48:24+08:00" level=info msg="Executing cleanup for version compatibility test"
+time="2023-04-11T09:48:24+08:00" level=info msg="Cleaning up dut resources..."
+time="2023-04-11T09:48:25+08:00" level=info msg="Cleaning up AWS resources... This may take a while..."
+time="2023-04-11T09:48:25+08:00" level=info msg="Finished running test case"
+[WARNING] [2023-04-11 09:48:25]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+time="2023-04-11T09:48:25+08:00" level=info msg="GGV2 Suite Info" hostArch=amd64 hostName=user-VirtualBox hostOs=linux groupId=lambdadeployment testCaseId=lambdadeploymenttest deviceId=test
+time="2023-04-11T09:48:25+08:00" level=info msg="Running test case"
+time="2023-04-11T09:48:26+08:00" level=info msg="Created aws resource suffix: idt-8441531361292901792"
+time="2023-04-11T09:48:26+08:00" level=info msg="Setting up device for testing"
+time="2023-04-11T09:48:26+08:00" level=info msg="Device architecture: aarch64"
+time="2023-04-11T09:48:29+08:00" level=info msg="Executing lambda deployment test setup"
+time="2023-04-11T09:48:29+08:00" level=info msg="Fetching installed Greengrass provisioning configuration"
+time="2023-04-11T09:48:30+08:00" level=info msg="Executing lambda deployment test"
+time="2023-04-11T09:48:30+08:00" level=info msg="Creating lambda function"
+time="2023-04-11T09:50:13+08:00" level=info msg="Created lambda function"
+time="2023-04-11T09:50:13+08:00" level=info msg="Checking lambda function status"
+time="2023-04-11T09:50:33+08:00" level=info msg="Verified lambda function status is ready for publish"
+time="2023-04-11T09:50:33+08:00" level=info msg="Publishing lambda function"
+time="2023-04-11T09:50:33+08:00" level=info msg="Published lambda function"
+time="2023-04-11T09:50:33+08:00" level=info msg="Creating lambda qualification component..."
+time="2023-04-11T09:50:35+08:00" level=info msg="Created lambda qualification component"
+time="2023-04-11T09:50:35+08:00" level=info msg="Verifying lambda qualification component creation status..."
+time="2023-04-11T09:51:15+08:00" level=info msg="Verified lambda qualification component creation status is ready for deployment"
+time="2023-04-11T09:51:15+08:00" level=info msg="Creating lambda qualification component deployment"
+time="2023-04-11T09:51:16+08:00" level=info msg="Created lambda qualification component deployment"
+time="2023-04-11T09:51:16+08:00" level=info msg="Verifying lambda qualification component deployment..."
+time="2023-04-11T09:56:46+08:00" level=info msg="Verified lambda qualification component deployment"
+time="2023-04-11T09:56:46+08:00" level=info msg="Publishing to lambda topic"
+time="2023-04-11T09:56:47+08:00" level=info msg="Published to lambda topic"
+time="2023-04-11T09:56:47+08:00" level=info msg="Validating lambda publish"
+time="2023-04-11T09:57:02+08:00" level=info msg="Validated lambda publish successfully"
+time="2023-04-11T09:57:02+08:00" level=info msg="Lambda feature verification succeeded"
+time="2023-04-11T09:57:02+08:00" level=info msg="Cleaning up test resources..."
+time="2023-04-11T09:57:02+08:00" level=info msg="Executing lambda deployment test cleanup"
+time="2023-04-11T09:57:03+08:00" level=info msg="Pulled component logs to /home/user/test/devicetester_greengrass_v2_linux/results/20230411T094803/logs/lambdadeployment/lambdaDeploymentTest/idt-ggv2-lambda-function-idt-8441531361292901792.log"
+time="2023-04-11T09:57:04+08:00" level=info msg="Skipping the cleanup of installed Greengrass"
+time="2023-04-11T09:57:04+08:00" level=info msg="Cleaning up dut resources..."
+time="2023-04-11T09:57:04+08:00" level=info msg="Cleaning up AWS resources... This may take a while..."
+time="2023-04-11T09:57:04+08:00" level=info msg="Finished running test case"
+[WARNING] [2023-04-11 09:57:04]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+09:57:13.550 [] [] [] [WARN] com.aws.greengrass.testing.modules.GreengrassContextModule - Testing with PreInstalled greengrass, the path to greengrass nucleus zip will be ignored groupId=mqtt testCaseId=mqttpubsub deviceId=test
+09:57:21.214 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+09:57:22.520 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+09:57:23.835 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+09:57:25.154 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+09:57:27.036 [otf-1.0.0-SNAPSHOT] [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+09:57:27.036 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'Component publishes MQTT message to Iot core and retrieves it as well'
+09:57:31.175 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+09:57:33.824 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'my device is running Greengrass' with status PASSED
+09:57:38.113 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Bucket in S3Lifecycle
+09:58:29.828 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Object in S3Lifecycle
+09:58:29.829 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Uploaded /tmp/gg-testing-6527560335327194385/95f3c8b5022756a46308/components/aws.greengrass.IotMqttPublisher/aws-greengrass-testing-features-mqtt.zip to s3://idt-95f3c8b5022756a46308-gg-component-store/greengrass/components/artifacts/aws-greengrass-testing-features-mqtt.zip
+09:58:31.552 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+09:58:31.552 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component aws.greengrass.IotMqttSubscriber:1.0.0-95f3c8b5022756a46308 from /greengrass/components/recipes/iot_mqtt_subscriber.yaml
+09:58:32.894 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+09:58:32.897 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component aws.greengrass.IotMqttPublisher:1.0.0-95f3c8b5022756a46308 from /greengrass/components/recipes/iot_mqtt_publisher.yaml
+09:58:32.899 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+09:58:33.423 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+09:58:33.424 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 0d20cc4b-096f-4469-aeee-5f85d038a6d7
+09:58:33.424 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+10:01:46.768 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 300 seconds' with status PASSED
+10:01:49.474 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'the aws.greengrass.IotMqttSubscriber log on the device contains the line "Subscribed to IoT topic idt/Mqtt/Test with QOS=AT_LEAST_ONCE" within 20 seconds' with status PASSED
+10:01:52.150 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] greengrass/features/mqtt.feature - Finished step: 'the aws.greengrass.IotMqttPublisher log on the device contains the line "Published to IoT topic idt/Mqtt/Test with payload test message and qos AT_LEAST_ONCE" within 10 seconds' with status PASSED
+10:01:52.846 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:01:53.269 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:02:16.829 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:02:17.320 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:03:17.504 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+10:03:17.512 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+10:03:17.512 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+10:03:37.803 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+10:03:38.371 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:03:38.671 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:03:38.886 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:03:39.187 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+10:03:39.486 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+10:03:40.186 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Object in S3Lifecycle
+10:03:40.801 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Bucket in S3Lifecycle
+10:03:40.807 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+10:03:40.810 [otf-1.0.0-SNAPSHOT] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'Component publishes MQTT message to Iot core and retrieves it as well'
+10:03:40.813 [] [mqtt] [idt-95f3c8b5022756a46308] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'Component publishes MQTT message to Iot core and retrieves it as well'
+10:03:40.950 [] [] [] [INFO] com.aws.greengrass.testing.modules.AWSResourcesCleanupModule - Cleaned up com.aws.greengrass.testing.resources.AWSResources@13af0008
+[WARNING] [2023-04-11 10:03:44]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+10:03:52.756 [] [] [] [WARN] com.aws.greengrass.testing.modules.GreengrassContextModule - Testing with PreInstalled greengrass, the path to greengrass nucleus zip will be ignored groupId=component testCaseId=localcomponent deviceId=test
+10:04:00.550 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+10:04:01.865 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+10:04:03.184 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+10:04:04.515 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+10:04:06.523 [otf-1.0.0-SNAPSHOT] [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+10:04:06.524 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'A component is deployed locally using CLI'
+10:04:10.705 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+10:04:13.340 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'my device is running Greengrass' with status PASSED
+10:04:15.898 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+10:04:16.443 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:04:16.445 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 1c5babce-d12c-4d4d-8db1-7d15f5b2ac28
+10:04:16.445 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+10:05:45.591 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+10:05:46.914 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I verify greengrass-cli is available in greengrass root' with status PASSED
+10:06:07.426 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - The local deployment response is  77ffcc60-f66c-49df-8388-d9f3f5b438b0
+
+10:06:07.427 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'I create a local deployment with components' with status PASSED
+10:06:39.817 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'the local Greengrass deployment is SUCCEEDED on the device after 120 seconds' with status PASSED
+10:06:42.466 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] greengrass/features/localdeployment.feature - Finished step: 'the aws.greengrass.LocalHelloWorld log on the device contains the line "Hello World!!" within 20 seconds' with status PASSED
+10:06:43.136 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:06:43.557 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:07:39.605 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:07:40.041 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:08:40.242 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+10:08:40.249 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+10:08:40.250 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+10:08:58.017 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+10:08:58.577 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:08:58.889 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:08:59.113 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:08:59.121 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+10:08:59.124 [otf-1.0.0-SNAPSHOT] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'A component is deployed locally using CLI'
+10:08:59.127 [] [localdeployment] [idt-48b41e916ac90227ba60] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'A component is deployed locally using CLI'
+[WARNING] [2023-04-11 10:09:02]: IDT is accessing to Device Under Test with an insecure SSH method, to make it more secure you can provide publicKeyPath to device.json or resource.json file. More details can be found on AWS IoT Device Tester documentation Configure IDT settings section.
+10:09:11.116 [] [] [] [WARN] com.aws.greengrass.testing.modules.GreengrassContextModule - Testing with PreInstalled greengrass, the path to greengrass nucleus zip will be ignored deviceId=test groupId=component testCaseId=cloudcomponent
+10:09:18.954 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+10:09:20.270 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+10:09:21.572 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+10:09:22.907 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+10:09:24.864 [otf-1.0.0-SNAPSHOT] [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+10:09:24.865 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'As a developer, I can create a component in Cloud and deploy it on my device'
+10:09:28.801 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+10:09:31.441 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is running Greengrass' with status PASSED
+10:09:35.900 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Bucket in S3Lifecycle
+10:10:11.304 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Object in S3Lifecycle
+10:10:11.306 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Uploaded /tmp/gg-testing-4442560250706912449/44c0984ba5ed699f9cc8/components/com.aws.HelloWorld/aws-greengrass-testing-features-cloudcomponent.zip to s3://idt-44c0984ba5ed699f9cc8-gg-component-store/greengrass/components/artifacts/aws-greengrass-testing-features-cloudcomponent.zip
+10:10:12.647 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+10:10:12.648 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.0-44c0984ba5ed699f9cc8 from /greengrass/components/recipes/hello_world_recipe.yaml
+10:10:12.650 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+10:10:13.097 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:10:13.098 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 898b8132-5c7b-4aa5-aaef-5462e6877c2c
+10:10:13.098 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+10:11:05.344 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+10:11:07.982 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World!!" within 20 seconds' with status PASSED
+10:11:10.277 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+10:11:10.277 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.1-44c0984ba5ed699f9cc8 from /greengrass/components/recipes/hello_world_updated_recipe.yaml
+10:11:10.278 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+10:11:10.668 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:11:10.668 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: b429d7c6-ce3c-4603-b239-4c3e2029cb7e
+10:11:10.669 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration' with status PASSED
+10:12:05.813 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+10:12:08.465 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World Updated!!" within 20 seconds' with status PASSED
+10:12:08.638 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:12:09.051 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:12:36.105 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:12:36.535 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:13:36.615 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+10:13:36.621 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+10:13:36.622 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+10:13:55.923 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+10:13:56.494 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:13:56.791 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:13:57.008 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:13:57.291 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+10:13:57.515 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:13:57.779 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+10:13:58.479 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Object in S3Lifecycle
+10:13:59.040 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Bucket in S3Lifecycle
+10:13:59.046 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+10:13:59.049 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'As a developer, I can create a component in Cloud and deploy it on my device'
+10:14:04.678 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /bin/bash exists
+10:14:05.993 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /proc exists
+10:14:07.303 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/apt-get exists
+10:14:08.614 [] [] [] [INFO] com.aws.greengrass.testing.api.device.remote.AbstractRemoteDevice - File /usr/bin/yum does not exists
+10:14:10.188 [otf-1.0.0-SNAPSHOT] [] [] [INFO] com.aws.greengrass.testing.features.LoggerSteps - OTF Version is otf-1.0.0-SNAPSHOT
+10:14:10.189 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Attaching thread context to scenario: 'As a developer, I can create a component in Cloud and deploy it on my device via thing group'
+10:14:10.191 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is registered as a Thing' with status PASSED
+10:14:12.818 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'my device is running Greengrass' with status PASSED
+10:14:15.696 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Bucket in S3Lifecycle
+10:14:38.736 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created S3Object in S3Lifecycle
+10:14:38.737 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Uploaded /tmp/gg-testing-4442560250706912449/623853a634c947f6e9f6/components/com.aws.HelloWorld/aws-greengrass-testing-features-cloudcomponent.zip to s3://idt-623853a634c947f6e9f6-gg-component-store/greengrass/components/artifacts/aws-greengrass-testing-features-cloudcomponent.zip
+10:14:39.332 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+10:14:39.333 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.0-623853a634c947f6e9f6 from /greengrass/components/recipes/hello_world_recipe.yaml
+10:14:39.334 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+10:14:39.965 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:14:39.965 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 48508b5b-091e-4662-b1b8-4770635bf1a3
+10:14:39.965 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration to thing group' with status PASSED
+10:15:34.879 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+10:15:37.530 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World!!" within 20 seconds' with status PASSED
+10:15:39.207 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassComponent in GreengrassV2Lifecycle
+10:15:39.208 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.component.RecipeComponentPreparationService - Created component com.aws.HelloWorld:1.0.1-623853a634c947f6e9f6 from /greengrass/components/recipes/hello_world_updated_recipe.yaml
+10:15:39.208 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I create a Greengrass deployment with components' with status PASSED
+10:15:39.895 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:15:39.895 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Created Greengrass deployment: 6a4002f7-3d42-476c-af2b-8da4d43a6b65
+10:15:39.895 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'I deploy the Greengrass deployment configuration to thing group' with status PASSED
+10:16:37.119 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the Greengrass deployment is COMPLETED on the device after 180 seconds' with status PASSED
+10:16:39.755 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] greengrass/features/cloudComponent.feature - Finished step: 'the com.aws.HelloWorld log on the device contains the line "Hello World Updated!!" within 20 seconds' with status PASSED
+10:16:40.445 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:16:40.871 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:17:07.442 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.DeploymentSteps - Cleaning up component through an empty deployment
+10:17:07.917 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Created GreengrassDeployment in GreengrassV2Lifecycle
+10:18:08.132 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [WARN] com.aws.greengrass.testing.features.DeploymentSteps - Empty deployment did not reach COMPLETED
+10:18:08.134 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.DefaultGreengrass - Leaving Greengrass running on pid: 0
+10:18:08.135 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.FileSteps - Stopping Greengrass service..
+10:18:27.466 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.FileSteps - Starting Greengrass service..
+10:18:28.014 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:18:28.335 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:18:28.556 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:18:28.849 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+10:18:29.071 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassDeployment in GreengrassV2Lifecycle
+10:18:29.330 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed GreengrassComponent in GreengrassV2Lifecycle
+10:18:30.025 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Object in S3Lifecycle
+10:18:30.539 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.resources.AbstractAWSResourceLifecycle - Removed S3Bucket in S3Lifecycle
+10:18:30.541 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.AWSResourcesSteps - Successfully removed externally created resources
+10:18:30.542 [otf-1.0.0-SNAPSHOT] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.features.LoggerSteps - Clearing thread context on scenario: 'As a developer, I can create a component in Cloud and deploy it on my device via thing group'
+10:18:30.543 [] [cloudComponent] [idt-44c0984ba5ed699f9cc8] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'As a developer, I can create a component in Cloud and deploy it on my device'
+10:18:30.544 [] [cloudComponent] [idt-623853a634c947f6e9f6] [INFO] com.aws.greengrass.testing.launcher.reporting.StepTrackingReporting - Passed: 'As a developer, I can create a component in Cloud and deploy it on my device via thing group'
+10:18:30.970 [] [] [] [INFO] com.aws.greengrass.testing.modules.AWSResourcesCleanupModule - Cleaned up com.aws.greengrass.testing.resources.greengrass.GreengrassV2Lifecycle$$EnhancerByGuice$$24160748@4cec462e
+[INFO] [2023-04-11 10:18:34]: All tests finished. executionId=e5970369-d80a-11ed-b322-080027641c32
+[INFO] [2023-04-11 10:18:37]: 
+
+========== Test Summary ==========
+Execution Time: 	30m26s
+Tests Completed: 	7
+Tests Passed: 		7
+Tests Failed: 		0
+Tests Skipped: 		0
+----------------------------------
+Test Groups:
+    coredependencies: 		PASSED
+    version: 			PASSED
+    lambdadeployment: 		PASSED
+    mqtt: 			PASSED
+    component: 			PASSED
+    pretestvalidation: 		PASSED
+----------------------------------
+Path to AWS IoT Device Tester Report: /home/user/test/devicetester_greengrass_v2_linux/results/20230411T094803/awsiotdevicetester_report.xml
+Path to Test Execution Logs: /home/user/test/devicetester_greengrass_v2_linux/results/20230411T094803/logs
+Path to Aggregated JUnit Report: /home/user/test/devicetester_greengrass_v2_linux/results/20230411T094803/GGV2Q_Report.xml
+==================================
+

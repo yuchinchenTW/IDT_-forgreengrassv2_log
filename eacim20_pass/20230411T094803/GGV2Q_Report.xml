@@ -1,0 +1,21 @@
+<testsuites name="GGV2Q results" time="1826" tests="7" failures="0" skipped="0" errors="0" disabled="0">
+	<testsuite name="pretestvalidation" package="" tests="1" failures="0" time="10" disabled="0" errors="0" skipped="0">
+		<testcase classname="GGV2Q pretestvalidation" name="pretestvalidation"></testcase>
+	</testsuite>
+	<testsuite name="coredependencies" package="" tests="1" failures="0" time="4" disabled="0" errors="0" skipped="0">
+		<testcase classname="GGV2Q coredependencies" name="javaversion"></testcase>
+	</testsuite>
+	<testsuite name="version" package="" tests="1" failures="0" time="6" disabled="0" errors="0" skipped="0">
+		<testcase classname="GGV2Q version" name="versionCompatibility"></testcase>
+	</testsuite>
+	<testsuite name="lambdadeployment" package="" tests="1" failures="0" time="518" disabled="0" errors="0" skipped="0">
+		<testcase classname="GGV2Q lambdadeployment" name="lambdadeploymenttest"></testcase>
+	</testsuite>
+	<testsuite name="mqtt" package="" tests="1" failures="0" time="400" disabled="0" errors="0" skipped="0">
+		<testcase classname="GGV2Q mqtt" name="mqttpubsub" time="928943360"></testcase>
+	</testsuite>
+	<testsuite name="component" package="" tests="2" failures="0" time="887" disabled="0" errors="0" skipped="0">
+		<testcase classname="GGV2Q component" name="localcomponent" time="1702321984"></testcase>
+		<testcase classname="GGV2Q component" name="cloudcomponent" time="902060352"></testcase>
+	</testsuite>
+</testsuites>
