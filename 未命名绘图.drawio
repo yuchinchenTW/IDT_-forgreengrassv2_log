@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-07-18T05:52:12.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="x0b4AQfgbrGTylCUHCZk" version="21.6.2" type="github">
+  <diagram name="第 1 页" id="5llI7hip83dVb_qKVo8m">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="trf79LLRnFaGW3UVssNV-1" value="Home Screen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-2" value="Start button" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-1">
+          <mxGeometry y="30" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-3" value="Show the availability of charging ports" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-1">
+          <mxGeometry y="60" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-11" value="Logo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-1">
+          <mxGeometry y="90" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-5" value="Payment and Authentication View:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="580" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-6" value="Payment Methods: Provide options for payment, such as credit/debit cards" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-5">
+          <mxGeometry y="30" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-14" value="Payment Confirmation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-5">
+          <mxGeometry y="60" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-13" value="show pricing deatils" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-5">
+          <mxGeometry y="90" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="trf79LLRnFaGW3UVssNV-5" target="trf79LLRnFaGW3UVssNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-15" value="Start Charging&amp;nbsp; View:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="580" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-16" value="Payment Methods: Provide options for payment, such as credit/debit cards" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-15">
+          <mxGeometry y="30" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-17" value="Payment Confirmation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-15">
+          <mxGeometry y="60" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-18" value="show pricing deatils" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="trf79LLRnFaGW3UVssNV-15">
+          <mxGeometry y="90" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trf79LLRnFaGW3UVssNV-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.479;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.479;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="trf79LLRnFaGW3UVssNV-13" target="trf79LLRnFaGW3UVssNV-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
