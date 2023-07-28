@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T04:52:59.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vEm7PIPOznUI5_5EU9OE" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T04:56:46.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gulcKqdFQ3oe1ArqjlnE" version="21.6.2" type="github">
   <diagram name="第 1 页" id="h4Je9ntjCZEkH3LW6IeI">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
@@ -208,6 +208,24 @@
         </mxCell>
         <mxCell id="K-YooQLs9-meU3j8jbvG-60" value="show toast&lt;br&gt;&quot;Password Error&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="599.5" y="654.5" width="198" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="K-YooQLs9-meU3j8jbvG-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K-YooQLs9-meU3j8jbvG-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="528" y="677" as="sourcePoint" />
+            <mxPoint x="979" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-YooQLs9-meU3j8jbvG-62" value="show resetpassword dialog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="792" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K-YooQLs9-meU3j8jbvG-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.575;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.46;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K-YooQLs9-meU3j8jbvG-51" target="K-YooQLs9-meU3j8jbvG-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="528" y="677" as="sourcePoint" />
+            <mxPoint x="1122" y="781" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-YooQLs9-meU3j8jbvG-64" value="show toast&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Password Correct Switch to&lt;br&gt;Enabled(Disabled)&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="792" width="176" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
